@@ -6,19 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="democloud5" />
         <module name="eureka-client1" />
         <module name="eureka-client2" />
+        <module name="eureka-custom1" />
         <module name="eureka-server" />
         <module name="eureka-server2" />
+        <module name="util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="democloud5" target="1.8" />
       <module name="eureka-client1" target="1.8" />
       <module name="eureka-client2" target="1.8" />
+      <module name="eureka-custom1" target="1.8" />
+      <module name="eureka-custome2" target="1.8" />
+      <module name="eureka-custome3" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server2" target="1.8" />
+      <module name="util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,7 +1,7 @@
-package com.example.eurekaclient1.util;
+package util;
 
 
-import com.example.eurekaclient1.vo.Result;
+import vo.Result;
 
 public class ResultUtil {
     private static final String successCode = "0";
